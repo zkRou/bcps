@@ -1,0 +1,12 @@
+version: '3'
+services:
+  peer:
+    image: snlan/bcps-peer
+    container_name: bcps-peer
+  dal:
+    image: snlan/bcps-dal
+    container_name: bcps-dal
+  ass:
+    image: snlan/bcps-ass
+    container_name: bcps-ass
+
